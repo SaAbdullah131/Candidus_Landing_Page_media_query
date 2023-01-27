@@ -1,0 +1,38 @@
+:root {
+    --black:#1c1c1c;
+    --gray:#919191;
+    --light-gray:#ebebeb;
+    --hot-pink:#ff2147;
+    --primary-font:"Roboto",san-serif;
+}
+body {
+    background-color:var(--light-gray) ;
+    font-family: var(--primary-font);
+}
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.container {
+    padding-top: 0 25px;
+    width:100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+
+}
+nav >ul {
+    display: flex;
+    list-style: none;
+    gap:25px;
+}
+.banner-section {
+    background-color: red;
+    padding:14rem 25px;
+}
